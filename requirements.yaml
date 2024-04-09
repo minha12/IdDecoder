@@ -1,4 +1,4 @@
-name: styleadv
+name: IdDecoder
 channels:
   - pytorch
   - conda-forge
