@@ -18,13 +18,12 @@ This framework has been successfully tested on:
 1. We recommend to set up the virtual environment by Mini Conda:
 
 ```
-git clone https://github.com/minha12/StyleAdv.git
-cd StyleAdv
-conda env create -n styleadv --file ./requirements.yaml
+git clonehttps://github.com/minha12/IdDecoder.git
+cd IdDecoder
+conda env create -n iddecoder --file ./requirements.yaml
 wget https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-linux.zip
 sudo unzip ninja-linux.zip -d /usr/local/bin/
 sudo update-alternatives --install /usr/bin/ninja ninja /usr/local/bin/ninja 1 --force
-python utils/download_models.py
 ```
 
 
