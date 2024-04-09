@@ -39,17 +39,9 @@ RUN wget https://github.com/ninja-build/ninja/releases/download/v1.8.2/ninja-lin
     rm ninja-linux.zip
 
 # Clone Git repository
-RUN git clone https://github.com/minha12/StyleAdv.git /app
+RUN git clone https://github.com/minha12/IdDecoder.git /app
 
 # Set the working directory
 WORKDIR /app/
 
-# Run the script to download models
-RUN python /app/utils/download_models.py
-
-# Expose the port on which Gradio runs (usually 7860)
-EXPOSE 7860
-
-# Set the command to run Gradio app
-ENTRYPOINT ["python", "demo.py"]
 
