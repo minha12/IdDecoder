@@ -1,5 +1,9 @@
 # IdDecoder
 
+![Optimizer](optimizer_wpes22_v02-1.png)
+
+![Mapper](mapper_wpes22_v03-1.png)
+
 ## Basic Requirements
 - Ubuntu 20.04
 - Pytorch 1.7.1
